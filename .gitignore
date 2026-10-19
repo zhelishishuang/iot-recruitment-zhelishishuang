@@ -1,0 +1,27 @@
+# Keil 编译产物
+*.o
+*.axf
+*.hex
+*.bin
+*.crf
+*.d
+*.lst
+*.htm
+*.map
+*.dep
+Objects/
+Listings/
+DebugConfig/
+RTE/
+
+# Keil 个人配置
+*.uvguix.*
+*.uvoptx
+
+# Arduino 编译产物
+build/
+*.zip
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
